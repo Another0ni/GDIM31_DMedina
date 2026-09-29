@@ -2,6 +2,8 @@
 ## Devlogs
 ### W1
 Write your W1 activity Devlog here.
+1: Removing the camera from the cat game object converts the camera into a stationary camera that can only track the cat while it remains in frame.
+2: https://another0ni.itch.io/w1
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
