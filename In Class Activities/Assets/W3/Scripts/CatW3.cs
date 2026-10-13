@@ -22,7 +22,7 @@ public class CatW3 : MonoBehaviour
     private float _health;
 
     // ------------------------------------------------------------------------
-    private void Start ()
+    private void Start()
     {
         _health = _maxHealth;
     }
@@ -95,7 +95,7 @@ public class CatW3 : MonoBehaviour
             // Below this comment, CALL the method named DecreaseHealth.
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
-            
+            DecreaseHealth();
 
             // STEP 2 ---------------------------------------------------------
 
@@ -105,9 +105,14 @@ public class CatW3 : MonoBehaviour
             //      the _destroyCatWhenDead flag is true,
             // then CALL the DestroyCat method.
             //
+
+            if (_health <= 0 && _destroyCatWhenDead == true)
+            {
+                DestroyCat();
+            }
             // Try toggling the Destroy Cat When Dead setting on the Inspector,
             //      and see how the cat is removed ONLY when it's checked!
-            
+
 
             // STEP 6 ---------------------------------------------------------
         }
@@ -129,14 +134,15 @@ public class CatW3 : MonoBehaviour
     private void DecreaseHealth()
     {
         // write Step 3 below this comment!
-
+        _health--;
+        _healthText.text = "health = " + _health;
 
         // STEP 5 -------------------------------------------------------------
         // Once you've finished Step 4, CALL the GetHealthSpeechText method
         //      and store the result in _speechText's text variable.
         // This will look very similar to the above line to change _healthText ;)
 
-
+       _speechText.text = GetHealthSpeechText();
         // STEP 5 -------------------------------------------------------------
     }
     // STEP 3 -----------------------------------------------------------------
@@ -153,12 +159,19 @@ public class CatW3 : MonoBehaviour
     //      return "OH NO!".
     // 2. Otherwise, return "ouch".
 
-    //private ??? GetHealthSpeechText()
-    //{
+    private string GetHealthSpeechText()
+    {
+        if (_health < _maxHealth * 0.5)
+        {
+            return "Oh no!";
+        }
+        else
+        {
+            return "Ouch!";
+        }
         // put the method body here!
-        
-    //}
-    
+    }
+
     // STEP 4 -----------------------------------------------------------------
 
     // ------------------------------------------------------------------------
@@ -168,11 +181,11 @@ public class CatW3 : MonoBehaviour
         // Set the value of the _spriteRenderer's color variable to the value
         //      of the ball's ballRenderer's color variable.
         // This means you'll need to use the '.' twice to get to the color :)
-
-
+        //????
+        _spriteRenderer.color = ball.ballRenderer.color;
         // STEP 7 -------------------------------------------------------------
     }
-    
+
     // ------------------------------------------------------------------------
     private void DestroyCat()
     {
