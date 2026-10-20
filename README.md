@@ -27,6 +27,13 @@ Write your W1 activity Devlog here.
 #### Activity 3: Method's Coding Activity & Devlog Question
 1. The balls become extremely bright because their brightness is being multiplied exponentially by a factor of 1.50 each time they complete a bounce if they're moving quick enough.
 ## Open-Source Assets
+
+### W4
+#### Activity 1: Devlog Prompts
+
+1. I added rigidbodies to the Soccerball and Cat objects. These objects required Rigidbodies because they were going to collide within the game. I also checked “Is Trigger” on for the goal object to allow the soccer ball to pass through the object
+2. My game did not work correctly after the first attempt but I was able to resolve this by freezing certain positions within for the cat object within Unity's inspector
+
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
