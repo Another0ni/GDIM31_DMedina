@@ -30,8 +30,8 @@ Write your W1 activity Devlog here.
 ### W4
 #### Activity 1: Devlog Prompts
 
-1. I added rigidbodies to the Soccerball and Cat objects. These objects required Rigidbodies because they were going to collide within the game. I also checked “Is Trigger” on for the goal object to allow the soccer ball to pass through the object
-2. My game did not work correctly after the first attempt but I was able to resolve this by freezing certain positions within for the cat object within Unity's inspector
+1. I added rigidbodies to the Soccerball and Cat objects. These objects required Rigidbodies because they were going to collide within the game. I also checked “Is Trigger” on for the goal object to allow the soccer ball to pass through the object.
+2. My game did not work correctly after the first attempt but I was able to resolve this by freezing certain positions  for the cat object within Unity's inspector.
 
 ## Open-Source Assets
 
