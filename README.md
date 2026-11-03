@@ -33,6 +33,17 @@ Write your W1 activity Devlog here.
 1. I added rigidbodies to the Soccerball and Cat objects. These objects required Rigidbodies because they were going to collide within the game. I also checked “Is Trigger” on for the goal object to allow the soccer ball to pass through the object.
 2. My game did not work correctly after the first attempt but I was able to resolve this by freezing certain positions  for the cat object within Unity's inspector.
 
+### W5
+#### Activity 1: Pair Programming
+1. We’ll Need the following member variables: _NavMeshAgent and _animator
+2. This class will need Unity provided classes like Update() and Start()
+3. This class will need to use the Update() method to adjust the cat’s movement every frame. The class will also use the Start() method to set the Deer’s target to the mushroom’s NavMeshAgent selected in the inspector.
+
+
+
+
+
+
 ## Open-Source Assets
 
 ### W1
