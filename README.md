@@ -45,7 +45,8 @@ Write your W1 activity Devlog here.
 2. The BatW6 class needs an Update() method. This method is native to Unity. The BatW6 class will also need the methods EnableChase() and DisableChase(). These methods have to be written manually.
 
 3. The batManager method will initiate the bat chasing the player by calling the EnableChase() method inside Update(). The batManager will also stop the chase using the DisableChase() method within the Update() method. 
-
+### W8
+1. The code in step 2 did not add the movement to the muskrat's position as a Vector3. You can revise this code to use (0,0, movement * _moveSpeed * Time.deltaTime) for the vector3(x,y,z) values. This will allow movement to direct the muskrat forwards and backwards. 
 
 
 
