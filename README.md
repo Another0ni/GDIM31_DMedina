@@ -39,7 +39,7 @@ Write your W1 activity Devlog here.
 2. This class will need Unity provided classes like Update() and Start()
 3. This class will need to use the Update() method to adjust the cat’s movement every frame. The class will also use the Start() method to set the Deer’s target to the mushroom’s NavMeshAgent selected in the inspector.
 
-###"Week 7"/"W7"
+### W7
 1. The BatW6 class will need the variable _speed.
 
 2. The BatW6 class needs an Update() method. This method is native to Unity. The BatW6 class will also need the methods EnableChase() and DisableChase(). These methods have to be written manually.
