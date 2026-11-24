@@ -48,7 +48,11 @@ Write your W1 activity Devlog here.
 ### W8
 1. The code in step 2 did not add the movement to the muskrat's position as a Vector3. You can revise this code to use (0,0, movement * _moveSpeed * Time.deltaTime) for the vector3(x,y,z) values. This will allow movement to direct the muskrat forwards and backwards. 
 
-
+### 3D Final
+##Activity 1: Planning the  Final
+1. https://docs.google.com/drawings/d/1FSY8yKzX0wDGC6D6kpoGuSic1ZzZS4_EXrOwKfsYx8c/edit
+##Activity 2: Work on Final
+1.
 
 
 ## Open-Source Assets
