@@ -53,7 +53,7 @@ Write your W1 activity Devlog here.
 1. https://docs.google.com/drawings/d/1FSY8yKzX0wDGC6D6kpoGuSic1ZzZS4_EXrOwKfsYx8c/edit
 
 ##Activity 2: Work on Final
-1.
+1. I
 
 
 ## Open-Source Assets
