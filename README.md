@@ -51,6 +51,7 @@ Write your W1 activity Devlog here.
 ### 3D Final
 ##Activity 1: Planning the  Final
 1. https://docs.google.com/drawings/d/1FSY8yKzX0wDGC6D6kpoGuSic1ZzZS4_EXrOwKfsYx8c/edit
+
 ##Activity 2: Work on Final
 1.
 
